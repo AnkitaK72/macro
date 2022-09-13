@@ -8,17 +8,17 @@ int main()
 {
     char str[20];
     int x;
-    sscanf(NUM_1, "%d", &x);
-    //printf("\nThe integer value of x is %d ", x);
+    sscanf(NUM_1, "%d", &x);  //store NUM_1
+    
     int y;
-    sscanf(NUM_2, "%d", &y);
-    //printf("\nThe integer value of y is %d ", y);
+    sscanf(NUM_2, "%d", &y);   //store NUM_2
+    
 
     int add = x + y;
-    //printf("\nadd is %d",add);
-    sprintf(str, "%d", add);
+    
+    sprintf(str, "%d", add);  //int to str
     printf("\n\"%s\"",str);
-    //printf("str is : " "%s",str);
+  
     
     
     
